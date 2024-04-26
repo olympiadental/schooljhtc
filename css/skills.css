@@ -1,0 +1,21 @@
+.custom-bg {
+    background-image: url(../img/img-03.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    .card {
+      transform: scale(1); /* 120% scale on medium-sized screens and larger */
+      transition: transform 0.3s ease; /* Add a smooth transition effect */
+    }
+
+    .card:hover {
+      transform: scale(1.1); /* 130% scale on hover */
+    }
+}

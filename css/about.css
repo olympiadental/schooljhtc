@@ -1,0 +1,18 @@
+.shadow-img{
+    border-radius: 15px;
+}
+.padding{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-family: Khmersiemreap;
+    color: #1652c0;
+    text-align: left;
+    font-weight: bold;
+}
+h4{
+    color: #1652c0;
+    font-size: 40px;
+}
+h5{
+    font-size: 20px;
+}

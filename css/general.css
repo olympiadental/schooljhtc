@@ -1,0 +1,173 @@
+@font-face {
+  font-family: Khmer;
+  src: url(../font/NotoSansKhmer-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: KhmerSiemreap;
+  src: url(../font/Siemreap.ttf);
+}
+/* #2e3192 */
+*{
+  box-sizing: border-box;
+  font-family: Khmer;
+}
+nav{
+	background-color: #2e3192;
+}
+.margin-header{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+/* Custom CSS for hover effect */
+.navbar-nav .nav-item:hover .dropdown-menu {
+	display: block;
+}
+h1{
+  font-family: KhmerSiemreap;
+  font-weight: bold;
+}
+img{
+  width: 100%;
+}
+hr{
+  width: 70%;
+}
+.border-radius{
+  border-radius: 20px;
+}
+.padding-for-box-img{
+	padding: 30px 12px 30px 12px;
+}
+div {
+    box-sizing: border-box;
+}
+.gallery:hover {
+    border: 1px solid #777;
+}
+.gallery img {
+    width: 100%;
+}
+.gallery desc{
+    margin-top: 20px;
+}
+.color-text-nav{
+	color: white;
+}
+.color-text-nav:hover{
+	color: white;
+}
+@media only screen and (min-width:0px) and (max-width:990px) {
+	.change-bg-nav{
+		background-color: #f1f1f1;
+	}
+	.color-text-nav{
+		color: black;
+	}
+	.color-text-nav:hover{
+		color: black;
+	}
+}
+.li{
+    list-style-type: decimal;
+    font-family: Khmersiemreap;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
+/*Footer*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	/* font-family: 'Poppins', sans-serif; */
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #0f254e;
+    padding: 70px 0;
+}
+.footer-col{
+	text-align: left;
+   width: 25%;
+   padding: 0 30px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: white;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.padding-for-footer{
+	padding-left: 0px;
+}
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 100%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

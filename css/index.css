@@ -1,0 +1,21 @@
+.col-md-4{
+    padding: 0px 20px 0px 20px;
+}
+h2{
+    font-family: Khmersiemreap;
+    color: #1652c0;
+    text-align: center;
+    font-weight: bold;
+}
+.align{
+    text-align: left;
+}
+iframe{
+    margin-top: 10px;
+}
+.padding{
+    padding: 20px 0px;
+}
+.font-sidebar{
+    font-size: 19.5px;
+}
